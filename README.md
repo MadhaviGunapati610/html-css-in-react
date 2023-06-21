@@ -72,3 +72,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### About the challanges in this repo
 https://codepen.io/collection/XqrZBZ
+
+### installed roboto slab for npm
+
+https://www.npmjs.com/package/typeface-roboto-slab OR
+
+https://www.npmjs.com/package/@fontsource/roboto-slab
+
+### How to use RobotoSlab in reactjs
+
+https://dev.to/ziqinyeow/how-to-add-custom-font-file-to-your-react-app-31kb

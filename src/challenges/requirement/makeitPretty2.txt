@@ -1,0 +1,22 @@
+/*
+
+CHALLENGE 2: MAKE IT PRETTY
+Your final site should look like this:
+https://assets.codepen.io/296057/lil-solution2.png
+(The page will continue with each robot in a similar oval. I've showed you the first two.)
+
+Before we get into the layouts, make this look pretty. Fork this pen and make the following changes:
+
+- Get rid of the unsightly bullets!
+
+- Place each character in its own bubble with a linear color gradient. The lighter color is #fff6cf and the darker color is #fece7a. Get the color gradient code from https://cssgradient.io/ or another site if needed.
+
+- The background will be egg-shaped around the character and the name. The egg will stretch across the screen if you do it right. That's OK! BONUS POINTS if you don't need to change the HTML to do this!
+
+- Use Roboto Slab as your font. Get the external stylesheet from Google Fonts for the 600 weight font and include the stylesheet under Settings - CSS - Add External Stylesheets. The text should use color #FF715B.
+
+- Set the heading to be a larger size than the names and center it on the page.
+
+- Jen managed to do this in 4 declarations and ZERO new classes! Can you?
+
+*/

@@ -1,4 +1,4 @@
-import "./App.css";
+
 import SemanticMarkup from "./challenges/SemanticMarkup1";
 
 function App() {

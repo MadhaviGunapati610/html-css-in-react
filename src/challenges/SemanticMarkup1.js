@@ -1,9 +1,10 @@
-import react from "react";
+import "../App.css";
+import '../fonts/RobotoSlab-Bold.woff';
 
 const SemanticMarkup = () => {
   return (
     <section>
-      <h1>Meet the Robots</h1>
+      <h2>Meet the Robots</h2>
       <ul>
         <li>
           <figure>
@@ -137,19 +138,3 @@ const SemanticMarkup = () => {
 };
 
 export default SemanticMarkup;
-
-/* CHALLENGE 1: SEMANTIC MARKUP
-
-This will eventually be a section of a larger page, showing each robot with their name. We will use Flexbox to control their arrangement.
-
-Your task is to semantically mark up what you see here. 
-
-- DO NOT WORRY about what it looks like! It will look terrible.
-
-- WORRY about whether you are conveying the right meaning in your HTML.
-
-  * I've given you the markup for the image.
-  * What is the relationship between the image and the name underneath? How should you convey that relationship?
-  * What is the relationship of each image-name pair to each other? What is this in terms of content?
-  
-  */

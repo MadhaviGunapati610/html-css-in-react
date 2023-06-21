@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Bold";   /*Can be any text*/
+    src: local("RobotoSlab-Bold"),
+      url("./fonts/RobotoSlab-Bold.woff") format("woff");
+  }
+
+section{
+    text-align: center;
+    color: #FF715B;
+    font-family: Bold;
+    margin: 0;
+    border: 0;
+}
+h2{
+    font-weight: bold;
+    font-size: 3rem;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    background-image: linear-gradient( #fff6cf, #fece7a);
+    border-radius: 50%;
+    font-size: 2rem;
+}
