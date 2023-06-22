@@ -55,7 +55,7 @@ img{
 }
 
 
-  @media (ma x-width: 850px) {
+  @media (max-width: 850px) {
     ul{
     justify-content: space-around;
     }
