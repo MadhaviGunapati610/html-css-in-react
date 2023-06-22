@@ -1,27 +1,40 @@
 @font-face {
-    font-family: "Bold";   /*Can be any text*/
-    src: local("RobotoSlab-Bold"),
-      url("./fonts/RobotoSlab-Bold.woff") format("woff");
+    font-family: "Regular";   /*Can be any text*/
+    src: local("RobotoSlab-Regular"),
+      url("./fonts/RobotoSlab-Regular.woff") format("woff");
   }
-
-section{
-    text-align: center;
-    color: #FF715B;
-    font-family: Bold;
+body{
+    max-width: 1200px;
     margin: 0;
     border: 0;
+    box-sizing: border-box;
+  }
+section{
+    color: #FF715B;
+    font-family: Regular;
+    font-weight: 600;
+    padding: 0 4rem;
 }
 h2{
-    font-weight: bold;
     font-size: 3rem;
+    text-align: center;
 }
 ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 li{
-    background-image: linear-gradient( #fff6cf, #fece7a);
+    text-align: center;
+    background: linear-gradient(176deg, rgba(255, 246, 207, 1) 35%, rgba(254, 206, 122, 1) 100%);
     border-radius: 50%;
     font-size: 2rem;
+    margin-bottom: 3rem;
+}
+img{
+    width: 100%;
+    height: auto;
 }
