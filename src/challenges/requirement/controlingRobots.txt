@@ -1,0 +1,20 @@
+/*
+CHALLENGE 4: CONTROLLING ROBOTS AND BREAKPOINTS
+
+Time for our final tidy-up for this section of the website!
+
+Currently, the robots flow from one line to another, but they do not change size.
+
+See if you can control the robots in the following way:
+
+>850px -- 3 robots per row
+
+550-850px -- 2 robots per row
+
+<550px -- 1 robot per row
+
+DO NOT CHANGE THE HTML - you should be able to do this in just a few lines of CSS!
+
+Adjust the font size for the robot's name if that's helpful.
+
+*/
