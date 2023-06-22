@@ -3,21 +3,30 @@
     src: local("RobotoSlab-Regular"),
       url("./fonts/RobotoSlab-Regular.woff") format("woff");
   }
+  html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
 body{
-    max-width: 1200px;
     margin: 0;
     border: 0;
     box-sizing: border-box;
   }
 section{
-    color: #FF715B;
+    max-width: 1200px;
     font-family: Regular;
-    font-weight: 600;
-    padding: 0 4rem;
+    margin: 0 auto;
+  padding: 4rem 0;
 }
 h2{
-    font-size: 3rem;
     text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #ff715b;
 }
 ul{
     list-style-type: none;
@@ -28,13 +37,40 @@ ul{
     justify-content: space-between;
 }
 li{
-    text-align: center;
-    background: linear-gradient(176deg, rgba(255, 246, 207, 1) 35%, rgba(254, 206, 122, 1) 100%);
     border-radius: 50%;
-    font-size: 2rem;
-    margin-bottom: 3rem;
+  background: linear-gradient(
+    176deg,
+    rgba(255, 246, 207, 1) 35%,
+    rgba(254, 206, 122, 1) 100%
+  );
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #ff715b;
+  flex-basis: 30%;
 }
 img{
     width: 100%;
     height: auto;
 }
+
+
+  @media (ma x-width: 850px) {
+    ul{
+    justify-content: space-around;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    li{
+        font-size: 1rem;
+        flex-basis: 40%;
+    }
+  }
+
+  @media (max-width: 550px) {
+
+    li{
+        flex-basis: 60%;
+    }
+  }
