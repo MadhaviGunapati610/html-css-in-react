@@ -1,0 +1,10 @@
+/* CHALLENGE 5: MARKING UP A NAVIGATION BAR AND HEADER 
+
+Given the starting SVG image and navigation items, using semantic HTML, mark this up as if this were the header of a website. 
+
+Use a placeholder for the target of the link. The links don't need to go anywhere.
+
+HINT: Remember it does not matter what direction the navigation will display to mark it up semantically. HTML is about identifying content, not about how that content looks!
+
+
+*/

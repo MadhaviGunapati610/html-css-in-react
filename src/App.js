@@ -1,10 +1,12 @@
 
-import SemanticMarkup from "./challenges/SemanticMarkup1";
+import Navigation from "./challenges/Navigation";
+// import SemanticMarkup from "./challenges/SemanticMarkup1";
 
 function App() {
   return (
     <>
-    <SemanticMarkup />
+    {/* <SemanticMarkup /> */}
+    <Navigation />
     </>
   );
 }
