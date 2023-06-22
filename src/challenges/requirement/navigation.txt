@@ -1,0 +1,29 @@
+/* CHALLENGE 6: TWO WAYS TO LAY OUT A HEADER 
+
+I've given you the same HTML twice, once with a header ID of method1, and the other of method2.
+
+Create two possible layouts of this header:
+
+#method1: Center the image on its own line. Underneath, create a horizontal nav bar going all the way across the full page.
+
+#method2: Place the image on the left and the navbar on the right. Display links as individual pills.
+
+#method3: A variation of #method2 - display the bar as a continuous unit.
+
+Visual goal around 1000px wide: 
+https://assets.codepen.io/296057/lil-solution6.png
+
+
+
+BONUS: Do not change the HTML! You should be able to create both of these headers with the HTML you have, using some standard CSS selectors.
+
+For a font, use Roboto Slab, available at Google Fonts. You'll need to incorporate this in CodePen via the Settings - CSS - External files setting at the top right of the screen.
+
+Color palette includes:
+#00BFF3  blue
+#FF715B  red
+#F0C808  yellow
+#4C5B5C  dark gray
+
+
+*/
