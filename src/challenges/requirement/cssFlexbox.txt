@@ -1,0 +1,24 @@
+/*
+CHALLENGE 3: APPLY FLEXBOX
+
+- Set up this page to use the border-box model for CSS.
+
+- Set a max width around the layout of 1200px.
+
+- Remember that Flexbox is all about parents and children, flex containers and flex items. Where is the container and where are the items in this example? This will dictate where to apply the flexbox styling.
+
+- Set up this layout to wrap the robots on to successive rows. The number of robots per row will vary with screen size. Don't try to control how many robots per row at this point. Don't add any media queries yet either.
+
+Your site should look like this:
+
+- Greater than 1200px wide: 
+https://assets.codepen.io/296057/lil-solution3-wide.png
+
+- Around 1000px wide:
+https://assets.codepen.io/296057/lil-solution3-medium.png
+
+- Around 700px wide:
+https://assets.codepen.io/296057/lil-solution3-narrow.png
+
+
+*/
