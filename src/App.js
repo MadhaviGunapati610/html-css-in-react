@@ -1,5 +1,6 @@
 
 import Navigation from "./challenges/Navigation";
+import ResponsiveContent from "./challenges/ResponsiveContent";
 // import SemanticMarkup from "./challenges/SemanticMarkup1";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
     {/* <SemanticMarkup /> */}
     <Navigation />
+    <ResponsiveContent />
     </>
   );
 }
